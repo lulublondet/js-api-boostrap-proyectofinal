@@ -2,21 +2,33 @@ body {
 	margin:0;
   padding: 0;
   box-sizing:  border-box;   
+  color:#fff;
 	}
+
 
 
 .color-lab{ background-color: #f7b617}
 
-img.img-logo{
-  border:  1px solid orange;
-  padding-top: 10px;
-  padding-bottom: 5.5px;  
-   
+a {
+  color:white;
 }
 
-nav>div.container {
-  border:1px solid pink;
+
+img.img-logo{
+  padding-top: 10px;
+  padding-bottom: 5.5px;  
+  }
+
+nav > div > ul > li> a{
+  color:#666;
+ }
+
+
+nav > div > div > a > span{
+  color:#666;
+  font-size: 40px; 
 }
+
 
 section.hero {
   width: 100%;
@@ -25,6 +37,7 @@ section.hero {
   background-position: bottom; 
   background-size: cover;
 }
+
 section.hero>div.anuncio-right {
   position:  relative;
   float: right;
@@ -44,7 +57,107 @@ hr{
 span.anuncio {
   position: relative; 
   top:-15px; 
-  border:1px solid black;
+  
+}
+
+section.info {
+  padding-top: 40px; 
+  padding-bottom: 40px;  
+  overflow:auto;
+}
+
+section.info>.container {
+  border:1px solid white;
+  padding: 50px; 
+  float: left;    
+}
+
+
+section.conduce {
+    width: 100%;
+  height: 350px;
+  background: url("../image/conduce.jpg") no-repeat;
+  background-position: center; 
+  background-size:cover; 
+}
+
+div.conduce-anuncio {
+  float: right;
+  width: auto; 
+  height:inherit;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding-top: 10%;           
+  padding-left: 5px;
+}
+
+section.conduce>div.conduce-anuncio>h3{
+  margin:0;
+}
+
+
+div#map{
+    height: 400px;   
+}
+
+section.tarifa {
+  height:  500px;
+  display: flex; 
+  justify-content: center;  
+  align-items: center;       
+}
+
+footer {
+  background-color:#2b2b2b;
+  height:400px;
+  padding-top: 25px;  
+}
+
+
+footer>.container>.row{
+  border:1px solid white;
+  margin-bottom: 20px;
+
+}
+
+footer>.container>.row>.col-md-3{
+ height: 300px; 
+  padding-top: 35px;     
+}
+
+
+/*Contenedor de los iconos */
+
+footer > div > div:nth-child(2) > div:nth-child(1){
+  display: flex; 
+  align-items: flex-end;  
+}
+
+
+
+
+footer>.container>.row:nth-child(1){  
+  margin-bottom: 0;
+  border: 0;
+  border-bottom:1px solid white;   
+}
+
+
+footer>.container>.row:nth-child(2){  
+  height: 300px;
+  display: flex; 
+  align-items: center;
+  border:0;      
+}
+
+footer>.container>.row:nth-child(3){
+  margin:0;
+  border:none;
+  border-top: 1px solid white;    
+}
+
+ul.social-icons{
+  border:1px solid red;
+
 }
 
 
@@ -52,15 +165,24 @@ span.anuncio {
   nav>div.container {
         display: flex;
         justify-content: space-around; 
-        border:1px solid blue;     
+           
     }
+
+nav > div > div > ul.dropdown-menu.nav.navbar-nav{
+  min-width: 700px;
+  left:-150px;
+  margin: 0;
+  padding-left:5px;
+   
+  } 
 
 section.hero {
   width: auto;
-  height: 550px;
+  height: 450px;
   background: url("../image/taxi.jpg") no-repeat;
   background-position: bottom; 
   background-size: cover;
+
 }
 
 
@@ -74,6 +196,83 @@ section.hero>div.anuncio-right {
   padding-bottom:40px;
   height: 250px;    
 }
+
+
+section.info {
+  padding-top: 0px; 
+  padding-bottom: 0px;  
+
+}
+
+section.info>.container {
+  border:1px solid red;
+  padding:0; 
+  float: none;
+  padding: 30px;     
+}
+
+section.info>.container>.row>.col-xs-12.col-md-6 {
+  border: 1px solid white;
+  text-align:  center; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section.info>.container>.row>.col-xs-12.col-md-6:nth-child(2n){
+     border:none; 
+  }
+
+
+img.img-info {
+  height: 300px;      
+}
+
+
+section.conduce {
+  display: flex;
+  justify-content: center;   
+}
+
+div.conduce-anuncio {
+  padding-top: 20%;
+  width:100%; 
+
+}
+
+section.tarifa {
+  height:  500px;
+  display: block; 
+  justify-content: center;  
+  align-items: center;       
+}
+
+
+footer {
+ display: block;
+ padding-top: 20px;
+ padding-bottom: 20px;   
+}
+
+
+
+footer > div > div:nth-child(2) > div:nth-child(1) {
+  position:  absolute; 
+   left:50%;
+   z-index: 100;
+
+
+}
+
+footer > div > div:nth-child(2) > div:nth-child(1)>ul{
+  display: inline-block;  
+
+}
+
+ footer > div > div:nth-child(2) > div:nth-child(1)>ul>li {
+     display:  inline-block; 
+
+ }   
+
 
 
 }
