@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Boostrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+		
+</head>
+ <nav>
+    <div class="container">
+      <div class="btn-group visible-xs" role="group">
+        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true"><span class="glyphicon glyphicon-align-justify"></span></a>
+    <ul class="dropdown-menu nav navbar-nav">
+      <li><a href="#">Viaja</a></li>
+      <li><a href="#">Conduce</a></li>
+      <li><a href="#">Inicia Sesión</a></li>
+    </ul>
+  </div>
+    <img src="assets/image/logo.png" class="img-logo" alt="logoEmpresa">
+        <ul class="nav navbar-nav navbar-right visible-md visible-lg">
+          <li><a href="#">Viaja</a></li>
+          <li><a href="#">Conduce</a></li>
+          <li><a href="#">Inicia Sesión</a></li>
+          </ul>
+      </div>    
+ </nav>
+ <section id="hero" class="hero">  
+    <div class="anuncio-right color-lab"> 
+       <div class="visible-md visible-lg">       
+          <h3>Disfruta del viaje <br> Eres dueño de tu tiempo</h3>
+              <br>  
+            <span>Viaja con</span> <img src="assets/image/logo-blanco.png" alt="">
+            <h4>Registrate</h4>
+            <hr><span class="anuncio">O bien</span><hr> 
+            <br>  
+            <br>  
+          <button class="btn btn-default btn-lg" type="submit">Conviertete en un conductor</button>
+      </div>
+         <div class="visible-xs visible-xm">       
+          <h2>Comienza a<br>viajar con</h2>
+            <img src="assets/image/logo-blanco.png" class="image-responsive" alt=""><br><br>    
+            <button class="btn btn-default btn-lg" type="submit">Descarga el app</button>
+      </div>  
+    </div>
+</section>
+<section id="info" class="info"> 
+
+</section> 
+
+<!--
+<form class="form-inline">
+	<div class="container flex">
+  		<div class="form-group">
+  			<div class="input-group">
+ 				<label class="input-group-addon glyphicon glyphicon-record"></label>
+    			<input type="text" class="form-control" id="punto-partida" placeholder="Ingrese dirección">
+    		</div>
+ 	 	</div>
+  		<div class="form-group">
+      		<div class="input-group">
+ 				<label class="input-group-addon glyphicon glyphicon-record"></label>
+    			<input type="text" class="form-control" id="punto-llegada" placeholder="Ingrese direccion">
+    		</div>
+  		</div>
+  		<div class="form-group">
+      		<select name="travelMode" id="travelMode">
+      			<option value="DRIVING">Manejar</option>
+      			<option value="WALKING">Caminando</option>
+      			<option value="BICYCLING">Bicicleta</option>
+      			<option value="TRANSIT">Transito</option>
+      		</select>
+    	</div>		
+  
+  		<button type="button" class="btn btn-default" id="trazar-ruta">Trazar Ruta</button>
+  		<button type="button" class="btn btn-default">Encuentrame</button>
+  </div>
+</form>
+ <div id="right-panel"></div>
+<div id="map"></div>
+<div class="control"></div> -->
+
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAE3Nczsu1xWT3ZClnrnn-5dRi7Tg8QuSo&callback=initMap&libraries=places"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

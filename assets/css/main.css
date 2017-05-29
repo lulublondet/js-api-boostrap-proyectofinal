@@ -1,0 +1,79 @@
+body {
+	margin:0;
+  padding: 0;
+  box-sizing:  border-box;   
+	}
+
+
+.color-lab{ background-color: #f7b617}
+
+img.img-logo{
+  border:  1px solid orange;
+  padding-top: 10px;
+  padding-bottom: 5.5px;  
+   
+}
+
+nav>div.container {
+  border:1px solid pink;
+}
+
+section.hero {
+  width: 100%;
+  height: 550px;
+  background: url("../image/taxi.jpg") no-repeat;
+  background-position: bottom; 
+  background-size: cover;
+}
+section.hero>div.anuncio-right {
+  position:  relative;
+  float: right;
+  top:25%;
+  width:400px;    
+  padding-left:40px;  
+  padding-bottom:40px;  
+}
+
+hr{
+  width: 90px;     
+  display: inline-block; 
+  margin-left: 10px;
+  margin-right:  10px;    
+}
+
+span.anuncio {
+  position: relative; 
+  top:-15px; 
+  border:1px solid black;
+}
+
+
+@media (max-width: 767px) {
+  nav>div.container {
+        display: flex;
+        justify-content: space-around; 
+        border:1px solid blue;     
+    }
+
+section.hero {
+  width: auto;
+  height: 550px;
+  background: url("../image/taxi.jpg") no-repeat;
+  background-position: bottom; 
+  background-size: cover;
+}
+
+
+section.hero>div.anuncio-right {
+  position:relative;
+  float: right;
+  top:25%;
+  width:300px;   
+  padding-left:20px;
+  padding-right:20px;    
+  padding-bottom:40px;
+  height: 250px;    
+}
+
+
+}
